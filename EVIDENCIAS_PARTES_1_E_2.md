@@ -2,9 +2,9 @@
  
 ## Identificação
  
-Nome do aluno:
-Turma:
-Data:
+Nome do aluno: Lucas Eduardo Duarte Pereira
+Turma: 3°B
+Data: 15/05/2026
  
 ---
  
@@ -12,7 +12,7 @@ Data:
  
 Cole abaixo o link do seu repositório:
  
-https://github.com/SEU_USUARIO/backend-em-insert
+https://github.com/luxjson/backend-em-insert
  
 ---
  
@@ -25,6 +25,10 @@ Execute no terminal:
 git remote -v
  
 Cole abaixo o resultado:
+
+$ git remote -v
+origin  https://github.com/luxjson/backend-em-insert.git (fetch)
+origin  https://github.com/luxjson/backend-em-insert.git (push)
  
 cole aqui o resultado do comando
  
@@ -37,6 +41,17 @@ Execute no terminal:
 git log --oneline
  
 Cole abaixo o resultado:
+
+$ git log --oneline
+8a3de38 (HEAD -> main, origin/main) Adiciona evidencias das partes 1 e 2
+90ed167 Atualiza rota raiz com pesquisa por data
+328a521 Configura projeto insert
+4ffe899 Rename project section from 'Parte 2' to 'Insert'
+ea330b7 Inserção de 3 registros de leituras
+dba6585 Filtra Leituras por data
+ba38040 Update DB_PASSWORD in .env-exemplo
+3a9d2b0 Commit inicial
+
  
 cole aqui o resultado do comando
  
