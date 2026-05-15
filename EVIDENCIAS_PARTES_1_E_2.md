@@ -30,8 +30,6 @@ $ git remote -v
 origin  https://github.com/luxjson/backend-em-insert.git (fetch)
 origin  https://github.com/luxjson/backend-em-insert.git (push)
  
-cole aqui o resultado do comando
- 
 ---
  
 ## 3. Comprovação dos commits
@@ -51,9 +49,6 @@ ea330b7 Inserção de 3 registros de leituras
 dba6585 Filtra Leituras por data
 ba38040 Update DB_PASSWORD in .env-exemplo
 3a9d2b0 Commit inicial
-
- 
-cole aqui o resultado do comando
  
 O resultado deve mostrar commits como:
  
@@ -75,8 +70,6 @@ On branch main
 Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
- 
-cole aqui o resultado do comando
  
 ---
  
@@ -103,8 +96,6 @@ Conexão com PostgreSQL realizada com sucesso.
 Tabela sincronizada com sucesso.
 Tabela leituras já possui dados.
 Servidor rodando em http://localhost:3000
- 
-cole aqui o resultado do terminal
  
 ---
  
@@ -161,8 +152,6 @@ Cole abaixo parte do resultado exibido:
   }
 ]
  
-cole aqui parte do resultado da rota /api/leituras
- 
 ---
  
 # Parte 2 — Alteração da rota raiz e pesquisa por data
@@ -185,8 +174,6 @@ Cole abaixo o resultado exibido:
   "formatoDaData": "YYYY-MM-DD",
   "exemploDeUso": "http://localhost:3000/api/leituras/data/2026-04-01"
 }
- 
-cole aqui o resultado da rota /
  
 O resultado deve mostrar as rotas disponíveis, incluindo:
  
@@ -231,8 +218,6 @@ Cole abaixo parte do resultado exibido:
   ]
 }
  
-cole aqui parte do resultado da rota /api/leituras/data/2026-04-01
- 
 ---
  
 ## 9. Teste de data inválida
@@ -247,8 +232,6 @@ Cole abaixo o resultado exibido:
   "mensagem": "Formato de data inválido. Use o formato YYYY-MM-DD.",
   "exemplo": "2026-05-11"
 }
- 
-cole aqui o resultado da validação de data inválida
  
 ---
  
@@ -269,8 +252,6 @@ app.get('/', (req, res) => {
   });
 });
 
- 
-cole aqui o código da rota app.get('/')
  
 ---
  
